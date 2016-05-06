@@ -19,3 +19,7 @@
 ## Staging API Usage
 
 You will do a `POST` call to the following url: `http://204.93.216.9:8086/property/search` with a Content-Type of `application/json` and a body of `{"basic":{"cities":["LAKEWO"]},"pageNumber":1,"resultsPerPage":10}`. This will shoot back a json document with a list of 10 properties with some information about those properties.
+
+## Notes
+
+Please don't spent more than 45m to an hour on this. Doesn't have to perfect and we prefer scrappy at this point - we're just looking to get a baseline on your front-end development skills. We include bootstrap4, jquery and angular by default to expedite the process, but you can use whatever you would like. If you are using the prescribed workflow here, you will run `gulp serve` (after the install above) and starting coding in `./assets/sass/_general.scss`, `./assets/scripts/main.js` and `./index.html`. Gulp serve also runs the watch task, which will watch for changes to any files and compile them into the production ./dist/ files. The browser will auto refresh when changes are made as well.
