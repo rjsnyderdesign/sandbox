@@ -1,0 +1,51 @@
+* {
+  font-family: sans-serif;
+}
+
+body { 
+  padding-top: 100px; 
+}
+
+body, input[text], button { 
+  color: #888; 
+  font-family: Cambria, Georgia; 
+}
+
+.properties-list .property {
+  margin: 2rem 0;
+  padding: 0 20px 2rem 0;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.property img {
+  background: #e2e2e2;
+  min-height: 50px;
+  max-height: 300px;
+  height: auto;
+  width: 100%;
+}
+
+.col-md-4 {
+  padding: 0 15px;
+}
+
+button {
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+}
+
+button:hover {
+  background-color: #cfd8dc;
+}
+
+@media (max-width: 450px) {
+  .col-xs-6 {
+    width: 100%;
+    padding: 0 15px;
+  }
+}

@@ -18,6 +18,6 @@
     "dist": "dist/"
   },
   "config": {
-    "devUrl": "http://change.me"
+    "devUrl": "http://localhost:8888/"
   }
 }

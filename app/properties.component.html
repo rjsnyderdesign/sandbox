@@ -1,0 +1,12 @@
+<button (click)="reverseOrder()">Sort By Price</button>
+<div class="properties-list">
+  <div *ngFor='let object of propertiesObject | orderBy : orderDirection' class="property col-md-4 col-sm-6 col-xs-6">
+    <img src="http://204.93.216.9:8086/{{object.thumbnailUrls[0]}}" />	
+    <h1>${{object.currentPrice}}</h1>
+    <p><label>Beds:</label> {{object.bedsTotal}}</p>
+    <p><label>Baths:</label> {{object.bathsTotal}}</p>
+    <p><label>SqFt:</label> {{object.sqftTotal}}</p>
+    <p><label>Address:</label> {{object.streetNumber}} {{object.streetName}} {{object.streetSuffix}}<br />
+    {{object.city}}, {{object.stateOrProvince}} {{object.postalCode}}</p>
+  </div>
+</div>
